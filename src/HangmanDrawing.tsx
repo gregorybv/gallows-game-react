@@ -105,7 +105,7 @@ export function HangmanDrawing() {
       <div
         style={{
           height: "400px",
-          width: "10px",
+          width: "15px",
           background: "black",
           marginLeft: "120px",
         }}
