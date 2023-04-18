@@ -110,7 +110,7 @@ export function HangmanDrawing() {
           marginLeft: "120px",
         }}
       />
-      <div style={{ height: "10px", width: "250px", background: "black" }} />
+      <div style={{ height: "15px", width: "250px", background: "black" }} />
     </div>
   )
 }
