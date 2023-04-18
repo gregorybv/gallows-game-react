@@ -78,7 +78,7 @@ function App() {
         {isWinner && "Winner! - Refresh to try again"}
         {isLoser && "Nice Try - Refresh to try again"}
       </div>
-      <HangmanDrawing numberOfGuesses={incorrectLetters.length} />
+      <HangmanDrawing />
       <HangmanWord
         reveal={isLoser}
         guessedLetters={guessedLetters}
